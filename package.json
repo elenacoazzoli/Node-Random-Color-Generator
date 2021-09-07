@@ -1,4 +1,10 @@
 {
+  "name": "node-random-color-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:elenacoazzoli/Node-Random-Color-Generator.git",
+  "author": "Elena Coazzoli <coazzoli.elena@gmail.com",
+  "license": "MIT",
   "devDependencies": {
     "@next/eslint-plugin-next": "^11.0.0",
     "@types/node": "^16.0.0",
@@ -26,5 +32,9 @@
   "resolutions": {
     "eslint-plugin-react": "7.24.0",
     "eslint-plugin-testing-library": "4.6.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "randomcolor": "^0.6.2"
   }
 }
